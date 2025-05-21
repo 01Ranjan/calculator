@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    display: flex;
+    
+}
+.button{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    color: white;
+    margin: 5px;
+    font-size: xx-large;
+    border-radius: 0.6em;
+     justify-content: center;
+    background-color:green ;
+}
+#cancel:active{
+ background-color: red;
+}
+.button:active{
+ background-color:yellowgreen;
+}
+.display{
+    width: 268px;
+    height: 80px;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    position: relative;
+    top: 5px;
+}
+.cal{
+    margin: 50px 0px 20px 600px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 0.6rem;
+    padding: 20px; 
+    box-shadow: 0px 0px 10px 1px  ;
+}
+.display input{
+    font-size: 30px;
+    width: 250px;
+    border: none;
+    margin-top: 15px;
+}
+ 
